@@ -5,6 +5,7 @@ const img = document.querySelector(".pkmn-img");
 const h3 = document.querySelector("div h3");
 
 const getPkmn = async () => {
+  
   try {
     img.classList.add("hidden");
     h3.style.opacity = "0";
